@@ -324,6 +324,28 @@ export const PAGES_MENU = [
             target: '_blank'
           }
         }
+      },
+      {
+        path: 'vehicles',
+        data: {
+          menu: {
+            title: 'Vehicles',
+            icon: 'ion-edit',
+            selected: false,
+            expanded: false,
+            order: 900,
+          }
+        }
+      //   children: [
+      //     {
+      //       path: 'ckeditor',
+      //       data: {
+      //         menu: {
+      //           title: 'CKEditor',
+      //         }
+      //       }
+      //     }
+      //   ]
       }
     ]
   }
